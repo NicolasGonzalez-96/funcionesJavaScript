@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Colores</title>
 </head>
 <body>
-    
+    <div id="azul" style="width: 200px;height: 200px;background-color: blue;">Azul</div>
+    <div id="rojo" style="width: 200px;height:200px;background-color: red;">Rojo</div>
+    <div id="verde" style="width: 200px;height:200px;background-color: green;">Verde</div>
+    <div id="amarillo" style="width: 200px;height:200px;background-color: yellow;">Amarillo</div>
+    <script>
+        const azulDiv = document.getElementById("azul");
+        const rojoDiv = document.getElementById("rojo");
+        const verdeDiv = document.getElementById("verde");
+        const amarilloDiv = document.getElementById("amarillo");
+        
+        azulDiv.addEventListener("click", function() {
+          azulDiv.style.backgroundColor = 'black';
+        });
+        rojoDiv.addEventListener("click", function() {
+          rojoDiv.style.backgroundColor = 'black';
+        });
+        verdeDiv.addEventListener("click", function() {
+          verdeDiv.style.backgroundColor = 'black';
+        });
+        amarilloDiv.addEventListener("click", function() {
+          amarilloDiv.style.backgroundColor = 'black';
+        });
+    </script>
 </body>
 </html>
